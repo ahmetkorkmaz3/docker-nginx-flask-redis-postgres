@@ -19,5 +19,5 @@ CREATE TABLE visitors (
 
 ALTER TABLE visitors OWNER TO postgres;
 COPY visitors (site_id, site_name, visitor_count) FROM stdin;
-1	linodeexample.com	0
+1	abexample.com	0
 \.

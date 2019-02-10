@@ -81,8 +81,8 @@ services:
 
    # Pass postgres environment variables
    environment:
-     POSTGRES_PASSWORD: linode123
-     POSTGRES_DB: linode
+     POSTGRES_PASSWORD: ab2019
+     POSTGRES_DB: ab2019
 
    # Expose port 5432 to other docker containers
    expose:

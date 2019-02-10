@@ -14,7 +14,7 @@ app.logger.setLevel(logging.DEBUG)
 def PgFetch(query, method):
 
     # Connect to an existing database
-    conn = psycopg2.connect("host='postgres' dbname='linode' user='postgres' password='linode123'")
+    conn = psycopg2.connect("host='postgres' dbname='ab2019' user='postgres' password='ab2019'")
 
     # Open a cursor to perform database operations
     cur = conn.cursor()
